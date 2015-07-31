@@ -6,8 +6,6 @@ key[left]='\033[D'
 key[delete]='\033[3~'
 key[backspace]='\b'
 
-key[ctrl_delete]='\033[3~'
-
 key[ctrl_left]='\001'
 key[ctrl_right]='\005'
 key[home]='\002'
@@ -15,9 +13,6 @@ key[end]='\006'
 
 key[ctrl_delete]='\033\033[Z'
 key[ctrl_backspace]='\033\033[Y'
-
-key[delete]='\033[3~'
-key[backspace]='\b'
 
 if [[ "$ZSH_FIRST_START" == true ]]; then
   echo "You start the ZSH config for the first time on a Mac OS X."
